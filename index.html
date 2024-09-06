@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whether App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+       <div class="container">
+        <div class="header">
+            <div class="searchbox">
+                <input type="text" placeholder="Enter your Location" class="inputpart">
+                <button id="searchbtn" class=" fa-solid fa-magnifying-glass"></button>
+            </div>
+        </div>
+        <div class="whether-body">
+           <img src="whether.png" alt="whether images" id="imgs" class="whether-img">
+          <div class="whether-box">
+            <p class="temprature">0 <sup>°C</sup></p>
+            <p class="description">Light rain</p>
+          </div>
+          <div class="whether-details">
+           <div class="humadity">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="text">
+                <span id="humadity">48%</span>
+                <p>Humidity</p>
+            </div>
+           </div>
+           <div class="wind">
+            <i class="fa-solid fa-wind"></i>
+            <div class="text">
+                <span id="wind">12KM/H</span>
+                <p>Wind Speed</p>
+            </div>
+           </div>
+</div>
+        </div>
+       </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

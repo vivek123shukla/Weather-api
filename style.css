@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    color: black;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+        width: 400px;
+        height: min-content;
+        background-color: white;
+        padding: 48px 15px ;
+        border-radius: 1.5rem;
+       
+}
+.searchbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.searchbox input{
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(215, 230, 237);
+    padding: 10px;
+    text-transform: capitalize;
+}
+.searchbox input::placeholder{
+    color: black;
+}
+.searchbox button{
+    font-size: 1.5rem;
+    background-color: rgb(211, 226, 233);
+    padding: 10px;
+    border-radius: 1.7rem;
+    cursor: pointer;
+    margin-left: 0.7rem;
+}
+.whether-body img{
+    width: 22rem;
+    height: 16rem;
+    border-radius: 10rem;
+}
+.whether-box{
+    text-align: center;
+   }
+.temprature{
+    font-size: 3rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.temprature sup{
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.description{
+    font-size: 1.5rem;
+    color: rgb(93, 157, 240);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+}
+.whether-details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.humadity,.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.humadity i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.wind i{
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+#humadity,#wind{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
